@@ -1,0 +1,4 @@
+Daily Timetable:
+8:00-14:00 - Lectures
+14:30-18:00 - Revision & Practice
+18:30-20:00 - Tests
