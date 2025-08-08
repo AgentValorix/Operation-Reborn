@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mission Control</h1>
+        <p>NEET Prep + Body & Mind Training Tracker</p>
+    </header>
+    <main>
+        <section id="goals">
+            <h2>Today's Goals</h2>
+            <ul id="goal-list"></ul>
+            <input type="text" id="goal-input" placeholder="Add a new goal">
+            <button onclick="addGoal()">Add Goal</button>
+        </section>
+        <section id="training">
+            <h2>Body + Mind Training</h2>
+            <p id="training-task">Loading today's training...</p>
+            <button onclick="newTraining()">Get New Task</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
